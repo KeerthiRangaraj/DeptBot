@@ -1,0 +1,128 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! Welcome to the CSE Promotions Bot at Sona College of Technology. How can I assist you today?",
+        "Hi there! Looking for the latest from the CSE Department?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Stay tuned for more CSE updates!",
+        "Take care! Visit again for the latest news and events from the department!"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What are the upcoming events?",
+        "Any events in CSE?",
+        "Upcoming programs?",
+        "Tell me about events"
+      ],
+      "responses": [
+        "The CSE Department is organizing a National Level Hackathon on April 28th. Registrations are now open!",
+        "Don\u2019t miss our upcoming Tech Symposium and Project Expo next week. Great learning and networking opportunities await!"
+      ]
+    },
+    {
+      "tag": "workshops",
+      "patterns": [
+        "Are there any workshops?",
+        "Tell me about CSE workshops",
+        "Workshop schedule?"
+      ],
+      "responses": [
+        "Yes! A hands-on IoT Workshop is happening this Friday. Limited seats available!",
+        "Mark your calendar for the Flutter App Development Bootcamp starting next month."
+      ]
+    },
+    {
+      "tag": "achievements",
+      "patterns": [
+        "Any recent achievements?",
+        "Student achievements?",
+        "Department awards?"
+      ],
+      "responses": [
+        "Our final-year students secured 1st prize in the Smart India Hackathon!",
+        "We\u2019re proud to share that our faculty recently published 7 research papers in reputed international journals."
+      ]
+    },
+    {
+      "tag": "admissions",
+      "patterns": [
+        "How do I join CSE?",
+        "Admission details?",
+        "Eligibility for CSE?",
+        "How to apply for CSE department?"
+      ],
+      "responses": [
+        "Admissions for the B.E. CSE program are now open. Apply via the official Sona College portal.",
+        "You can join CSE with a strong academic record in higher secondary and a passion for computing!"
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "What clubs are available?",
+        "CSE clubs?",
+        "Technical clubs in department?"
+      ],
+      "responses": [
+        "We have active clubs like AI Society, CodeCrafters, Cybersecurity Club, and Robotics Club \u2014 all run by students!",
+        "Be part of our vibrant tech community through clubs and forums where innovation thrives."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "What about placements?",
+        "Placement record?",
+        "CSE job offers?"
+      ],
+      "responses": [
+        "CSE Department boasts a 90%+ placement rate. Our top recruiters include TCS, Infosys, Zoho, and Amazon.",
+        "Students have received offers up to 12 LPA. We provide extensive training and internship support too!"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How to contact CSE dept?",
+        "Contact details?",
+        "Phone number or email for CSE department?"
+      ],
+      "responses": [
+        "Feel free to contact us at cse@sonatech.ac.in or call +91-427-2445000 ext 210.",
+        "Visit our department on the 3rd floor of Block 2 at Sona College of Technology, Salem."
+      ]
+    },
+    {
+      "tag": "developer",
+      "patterns": [
+        "Who made you?",
+        "Who developed this bot?"
+      ],
+      "responses": [
+        "I was proudly developed by Megha \u2014 a dedicated student and UI Designer from the CSE Department at Sona College of Technology.",
+        "Created by Megha, blending design and development to enhance your experience with the CSE Department!"
+      ]
+    }
+  ]
+}
